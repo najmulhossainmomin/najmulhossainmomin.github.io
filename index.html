@@ -1,21 +1,134 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Najmul Hossain Momin - Digital Marketer</title>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Najmul Hossain Momin | Digital Marketer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+    body {
+      background: linear-gradient(135deg, #ecf0f3, #f5f7fa);
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(135deg, #2c3e50, #34495e);
+      color: white;
+      padding: 3rem 2rem;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      opacity: 0.85;
+    }
+    section {
+      padding: 3rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .section-title {
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+      border-bottom: 3px solid #3498db;
+      display: inline-block;
+      color: #2c3e50;
+    }
+    .skills, .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+    }
+    .card {
+      background: white;
+      border-radius: 12px;
+      padding: 1.5rem;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    }
+    footer {
+      background: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 1.5rem;
+      margin-top: 2rem;
+    }
+    .social-links {
+      margin-top: 1rem;
+    }
+    .social-links a {
+      color: #3498db;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .social-links a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
-  <h1>Hi, I'm Najmul Hossain Momin</h1>
-  <p>I am currently learning Digital Marketing, focusing on Google Ads and Facebook Ads.</p>
+  <header>
+    <h1>Najmul Hossain Momin</h1>
+    <p>Digital Marketing Enthusiast | Facebook & Google Ads Learner</p>
+  </header>
 
-  <h2>About Me</h2>
-  <p>
-    I’m passionate about helping businesses grow through digital advertising.  
-    Though I’m at the beginning of my journey, I’m dedicated to mastering paid media, campaign strategy, and performance marketing.
-  </p>
+  <section>
+    <h2 class="section-title">About Me</h2>
+    <p>Hello! I'm a beginner in digital marketing, focused on mastering Facebook Ads and Google Ads. I love building campaigns that bring real results for businesses. I aim to grow as a performance-driven marketer in the global digital space.</p>
+  </section>
 
-  <h2>Contact</h2>
-  <p>Email: <a href="mailto:iammomin35@gmail.com">iammomin35@gmail.com</a></p>
-  <p>Phone: <a href="tel:+8801326636922">01326636922</a></p>
+  <section>
+    <h2 class="section-title">Skills</h2>
+    <div class="skills">
+      <div class="card">Google Ads</div>
+      <div class="card">Facebook Ads</div>
+      <div class="card">Canva Design</div>
+      <div class="card">Meta Business Suite</div>
+      <div class="card">Audience Targeting</div>
+      <div class="card">Analytics & Reporting</div>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="section-title">Projects</h2>
+    <div class="projects">
+      <div class="card">
+        <h3>Demo Facebook Campaign</h3>
+        <p>Created a mock campaign for a local clothing store targeting Dhaka-based audience with A/B creatives and interest-based audience segments.</p>
+      </div>
+      <div class="card">
+        <h3>Google Search Ad Demo</h3>
+        <p>Test ad setup for a mobile shop using keyword intent and location targeting. Estimated CTR, CPC, and optimization strategy provided.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="section-title">Contact</h2>
+    <p>Email: najmul@example.com</p>
+    <div class="social-links">
+      <a href="https://www.facebook.com/najmulhossain3999" target="_blank">Facebook</a>
+      <a href="https://www.linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Najmul Hossain Momin. All rights reserved.</p>
+  </footer>
 </body>
 </html>
