@@ -3,162 +3,116 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Najmul Hossain Momin | Growth Specialist</title>
+    <title>Najmul Hossain Momin | Digital Marketing Specialist</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <!-- AOS Library for Scroll Motion -->
+    <!-- AOS Animation Library -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <style>
-        body { background-color: #05070a; color: #f8fafc; font-family: 'Inter', sans-serif; overflow-x: hidden; }
+        body { background-color: #05070a; color: #f8fafc; font-family: 'Inter', sans-serif; scroll-behavior: smooth; overflow-x: hidden; }
         .gradient-text { background: linear-gradient(135deg, #38bdf8 0%, #818cf8 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
-        .glass-card { background: rgba(15, 23, 42, 0.6); border: 1px solid rgba(255, 255, 255, 0.05); backdrop-filter: blur(12px); transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1); }
-        .glass-card:hover { border-color: #38bdf8; transform: translateY(-12px) scale(1.02); box-shadow: 0 25px 50px rgba(56, 189, 248, 0.1); }
-        
-        /* Floating Animation */
-        .float-bg { position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: -1; pointer-events: none; }
-        .blob { position: absolute; background: #38bdf8; filter: blur(80px); border-radius: 50%; opacity: 0.15; animation: float 20s infinite alternate; }
-        
-        @keyframes float {
-            0% { transform: translate(0, 0); }
-            100% { transform: translate(100px, 50px); }
-        }
-
-        .step-number { -webkit-text-stroke: 1px #38bdf8; color: transparent; font-size: 3rem; font-weight: 900; opacity: 0.3; }
-        html { scroll-behavior: smooth; }
+        .glass-card { background: rgba(15, 23, 42, 0.6); border: 1px solid rgba(255, 255, 255, 0.05); backdrop-filter: blur(12px); transition: 0.4s; }
+        .glass-card:hover { border-color: #38bdf8; transform: translateY(-8px); box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4); }
+        .step-number { -webkit-text-stroke: 1px #38bdf8; color: transparent; font-size: 3rem; font-weight: 900; }
     </style>
 </head>
 <body>
 
-    <!-- Animated Background Blobs -->
-    <div class="float-bg">
-        <div class="blob w-64 h-64 top-10 left-10"></div>
-        <div class="blob w-96 h-96 bottom-20 right-10" style="background: #818cf8; animation-delay: -5s;"></div>
-    </div>
-
     <!-- Navigation -->
     <nav class="sticky top-0 z-50 glass-card border-b border-white/5 py-4 px-6">
         <div class="max-w-7xl mx-auto flex justify-between items-center">
-            <div class="text-lg md:text-xl font-bold tracking-tighter text-white">
-                NAJMUL HOSSAIN <span class="text-sky-400">MOMIN</span>
-            </div>
+            <div class="text-lg font-bold tracking-tighter text-white">NAJMUL HOSSAIN <span class="text-sky-400">MOMIN</span></div>
             <div class="hidden md:flex space-x-8 text-sm font-medium uppercase tracking-widest">
                 <a href="#services" class="hover:text-sky-400 transition">Services</a>
                 <a href="#process" class="hover:text-sky-400 transition">Process</a>
                 <a href="#tools" class="hover:text-sky-400 transition">Tools</a>
             </div>
-            <a href="#contact" class="bg-sky-500 hover:bg-sky-600 text-white px-6 py-2 rounded-full text-sm font-bold transition shadow-lg shadow-sky-500/20">Hire Me</a>
+            <a href="#contact" class="bg-sky-500 hover:bg-sky-600 text-white px-6 py-2 rounded-full text-sm font-bold transition">Hire Me</a>
         </div>
     </nav>
 
     <!-- Hero Section -->
     <header class="max-w-7xl mx-auto px-6 py-20 md:py-32 flex flex-col items-center text-center">
-        <div data-aos="fade-down">
-            <span class="px-4 py-1.5 rounded-full border border-sky-400/30 text-sky-400 text-xs font-bold uppercase tracking-widest mb-6 inline-block">Meta Ads & Lead Gen Specialist</span>
-        </div>
-        <h1 class="text-5xl md:text-8xl font-black leading-none mb-6" data-aos="zoom-in" data-aos-delay="200">
-            Marketing that <br><span class="gradient-text">moves the needle.</span>
-        </h1>
-        <p class="text-slate-400 text-lg md:text-xl mb-10 max-w-2xl" data-aos="fade-up" data-aos-delay="400">
-            I build high-performance ad funnels and lead generation systems for local and global businesses.
-        </p>
-        <div class="flex flex-col sm:flex-row gap-4" data-aos="fade-up" data-aos-delay="600">
-            <a href="#contact" class="bg-white text-black px-10 py-4 rounded-full font-bold hover:bg-sky-400 transition transform hover:scale-105">Let's Work Together</a>
-            <a href="#services" class="border border-white/20 px-10 py-4 rounded-full font-bold hover:bg-white/5 transition">My Expertise</a>
+        <span data-aos="fade-up" class="px-4 py-1.5 rounded-full border border-sky-400/30 text-sky-400 text-xs font-bold uppercase tracking-widest mb-6">Driving Business Growth Through Meta Ads & Lead Gen</span>
+        <h1 data-aos="fade-up" data-aos-delay="100" class="text-5xl md:text-8xl font-black leading-none mb-6">Marketing that <br><span class="gradient-text">moves the needle.</span></h1>
+        <p data-aos="fade-up" data-aos-delay="200" class="text-slate-400 text-lg md:text-xl mb-10 max-w-2xl">I help businesses grow through data-driven Facebook Ads, Google Ads, and performance lead generation.</p>
+        <div data-aos="fade-up" data-aos-delay="300" class="flex flex-col sm:flex-row gap-4">
+            <a href="#contact" class="bg-white text-black px-10 py-4 rounded-full font-bold hover:bg-sky-400 transition">Let's Work Together</a>
+            <a href="#services" class="border border-white/20 px-10 py-4 rounded-full font-bold hover:bg-white/5 transition">See My Services</a>
         </div>
     </header>
 
     <!-- Stats Section -->
-    <section class="max-w-7xl mx-auto px-6 py-12 border-y border-white/5 grid grid-cols-2 md:grid-cols-4 gap-8 text-center" data-aos="fade-up">
-        <div><div class="text-3xl font-bold text-white counter">500+</div><div class="text-[10px] text-slate-500 uppercase mt-2">Focused Study Hours</div></div>
-        <div><div class="text-3xl font-bold text-white">20+</div><div class="text-[10px] text-slate-500 uppercase mt-2">Campaign Mockups</div></div>
-        <div><div class="text-3xl font-bold text-white">Top 5%</div><div class="text-[10px] text-slate-500 uppercase mt-2">Marketing Merit</div></div>
-        <div><div class="text-3xl font-bold text-white">Certified</div><div class="text-[10px] text-slate-500 uppercase mt-2">Google & Meta Specialist</div></div>
+    <section data-aos="fade-up" class="max-w-7xl mx-auto px-6 py-12 border-y border-white/5 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+        <div><div class="text-3xl font-bold text-white">500+ Hours</div><div class="text-xs text-slate-500 uppercase mt-2">Focused Study</div></div>
+        <div><div class="text-3xl font-bold text-white">20+</div><div class="text-xs text-slate-500 uppercase mt-2">Ad Mockups</div></div>
+        <div><div class="text-3xl font-bold text-white">Top 5%</div><div class="text-xs text-slate-500 uppercase mt-2">Academic Rank</div></div>
+        <div><div class="text-3xl font-bold text-white">Certified</div><div class="text-xs text-slate-500 uppercase mt-2">Google & Meta Practice</div></div>
     </section>
 
-    <!-- Services -->
+    <!-- Services Section -->
     <section id="services" class="max-w-7xl mx-auto px-6 py-24">
-        <h2 class="text-4xl font-bold mb-16 text-center" data-aos="fade-right">Expertise Built for Results.</h2>
+        <p data-aos="fade-up" class="text-sky-400 font-bold uppercase text-xs tracking-widest mb-2">What I Do</p>
+        <h2 data-aos="fade-up" class="text-4xl font-bold mb-16">Services built for real business growth.</h2>
         <div class="grid md:grid-cols-3 gap-8">
-            <div class="glass-card p-10 rounded-3xl" data-aos="flip-left" data-aos-delay="100">
-                <i class="fab fa-facebook text-4xl text-sky-400 mb-6"></i>
-                <h3 class="text-2xl font-bold mb-4">Meta Ads</h3>
-                <p class="text-slate-400 text-sm mb-6">Audience research, A/B testing, and full-funnel scaling.</p>
-                <div class="flex flex-wrap gap-2"><span class="text-[9px] border border-white/10 px-2 py-1 rounded">CBO/ABO</span><span class="text-[9px] border border-white/10 px-2 py-1 rounded">Retargeting</span></div>
+            <div data-aos="fade-up" data-aos-delay="100" class="glass-card p-10 rounded-3xl">
+                <div class="text-sky-400 font-black mb-4">01</div>
+                <h3 class="text-2xl font-bold mb-4 text-white">Facebook & Meta Ads</h3>
+                <p class="text-slate-400 text-sm mb-6 leading-relaxed">Full-funnel strategy — from audience research to conversion optimization.</p>
             </div>
-            <div class="glass-card p-10 rounded-3xl" data-aos="flip-left" data-aos-delay="200">
-                <i class="fab fa-google text-4xl text-red-400 mb-6"></i>
-                <h3 class="text-2xl font-bold mb-4">Google Ads</h3>
-                <p class="text-slate-400 text-sm mb-6">High-intent search campaigns focused on ROI.</p>
-                <div class="flex flex-wrap gap-2"><span class="text-[9px] border border-white/10 px-2 py-1 rounded">SEM</span><span class="text-[9px] border border-white/10 px-2 py-1 rounded">GA4 Integration</span></div>
+            <div data-aos="fade-up" data-aos-delay="200" class="glass-card p-10 rounded-3xl">
+                <div class="text-sky-400 font-black mb-4">02</div>
+                <h3 class="text-2xl font-bold mb-4 text-white">Google Ads</h3>
+                <p class="text-slate-400 text-sm mb-6 leading-relaxed">Search and Display campaigns engineered around buyer intent.</p>
             </div>
-            <div class="glass-card p-10 rounded-3xl" data-aos="flip-left" data-aos-delay="300">
-                <i class="fas fa-bullseye text-4xl text-emerald-400 mb-6"></i>
-                <h3 class="text-2xl font-bold mb-4">Lead Gen</h3>
-                <p class="text-slate-400 text-sm mb-6">Converting traffic into qualified business leads.</p>
-                <div class="flex flex-wrap gap-2"><span class="text-[9px] border border-white/10 px-2 py-1 rounded">B2B</span><span class="text-[9px] border border-white/10 px-2 py-1 rounded">CRM Sync</span></div>
+            <div data-aos="fade-up" data-aos-delay="300" class="glass-card p-10 rounded-3xl">
+                <div class="text-sky-400 font-black mb-4">03</div>
+                <h3 class="text-2xl font-bold mb-4 text-white">Lead Generation</h3>
+                <p class="text-slate-400 text-sm mb-6 leading-relaxed">End-to-end funnels that turn cold traffic into sales-ready prospects.</p>
             </div>
         </div>
     </section>
 
-    <!-- Interactive Process -->
+    <!-- Process Section with Motion -->
     <section id="process" class="max-w-7xl mx-auto px-6 py-24 border-t border-white/5">
-        <h2 class="text-4xl font-bold mb-16" data-aos="fade-up">My Execution Framework</h2>
+        <p data-aos="fade-up" class="text-sky-400 font-bold uppercase text-xs tracking-widest mb-2">My Framework</p>
+        <h2 data-aos="fade-up" class="text-4xl font-bold mb-16">How I drive results.</h2>
         <div class="grid sm:grid-cols-2 md:grid-cols-4 gap-8">
-            <div class="p-8 border border-white/5 rounded-3xl bg-white/[0.02]" data-aos="zoom-in" data-aos-delay="100">
-                <div class="step-number">01</div>
-                <h4 class="text-xl font-bold mb-2">Audit</h4>
-                <p class="text-slate-400 text-sm">Identifying leaks in current marketing funnels.</p>
+            <div data-aos="zoom-in" data-aos-delay="100" class="p-6 border border-white/5 rounded-2xl bg-white/[0.02]">
+                <div class="step-number mb-2">01</div>
+                <h4 class="text-xl font-bold mb-2 text-white">Research</h4>
             </div>
-            <div class="p-8 border border-white/5 rounded-3xl bg-white/[0.02]" data-aos="zoom-in" data-aos-delay="200">
-                <div class="step-number">02</div>
-                <h4 class="text-xl font-bold mb-2">Build</h4>
-                <p class="text-slate-400 text-sm">Setting up high-converting ad copies and tracking.</p>
+            <div data-aos="zoom-in" data-aos-delay="200" class="p-6 border border-white/5 rounded-2xl bg-white/[0.02]">
+                <div class="step-number mb-2">02</div>
+                <h4 class="text-xl font-bold mb-2 text-white">Strategy</h4>
             </div>
-            <div class="p-8 border border-white/5 rounded-3xl bg-white/[0.02]" data-aos="zoom-in" data-aos-delay="300">
-                <div class="step-number">03</div>
-                <h4 class="text-xl font-bold mb-2">Scale</h4>
-                <p class="text-slate-400 text-sm">Aggressively scaling winning creatives for growth.</p>
+            <div data-aos="zoom-in" data-aos-delay="300" class="p-6 border border-white/5 rounded-2xl bg-white/[0.02]">
+                <div class="step-number mb-2">03</div>
+                <h4 class="text-xl font-bold mb-2 text-white">Launch</h4>
             </div>
-            <div class="p-8 border border-white/5 rounded-3xl bg-white/[0.02]" data-aos="zoom-in" data-aos-delay="400">
-                <div class="step-number">04</div>
-                <h4 class="text-xl font-bold mb-2">Report</h4>
-                <p class="text-slate-400 text-sm">Transparent data reporting with ROI analysis.</p>
+            <div data-aos="zoom-in" data-aos-delay="400" class="p-6 border border-white/5 rounded-2xl bg-white/[0.02]">
+                <div class="step-number mb-2">04</div>
+                <h4 class="text-xl font-bold mb-2 text-white">Optimize</h4>
             </div>
         </div>
     </section>
 
-    <!-- Hire Me Section -->
-    <section id="contact" class="max-w-7xl mx-auto px-6 py-24">
-        <div class="glass-card p-12 md:p-20 rounded-[4rem] text-center relative overflow-hidden" data-aos="fade-up">
-            <h2 class="text-4xl md:text-6xl font-black mb-6">Ready to scale?</h2>
-            <p class="text-slate-400 mb-10 max-w-lg mx-auto">Get a professional audit of your ad account for free.</p>
-            
-            <div class="flex flex-col md:flex-row justify-center items-center gap-6 mb-12">
-                <a href="mailto:iammomin35@gmail.com" class="flex items-center gap-3 text-lg font-bold hover:text-sky-400 transition">
-                    <i class="fas fa-envelope text-sky-400"></i> iammomin35@gmail.com
-                </a>
-                <a href="tel:+8801326636922" class="flex items-center gap-3 text-lg font-bold hover:text-green-400 transition">
-                    <i class="fas fa-phone-alt text-green-400"></i> 01326636922
-                </a>
-            </div>
-
-            <a href="mailto:iammomin35@gmail.com?subject=Free%20Consultancy" class="bg-sky-500 hover:bg-sky-600 text-white px-12 py-5 rounded-full font-black text-lg transition shadow-xl shadow-sky-500/40 transform hover:scale-105 inline-block">
-                CLAIM FREE CONSULTANCY <i class="fas fa-fire ml-2"></i>
-            </a>
+    <!-- Contact Section -->
+    <section id="contact" class="max-w-7xl mx-auto px-6 py-24 border-t border-white/5">
+        <div data-aos="fade-up" class="bg-gradient-to-br from-slate-900 to-black border border-white/10 p-8 md:p-16 rounded-[3rem] text-center max-w-4xl mx-auto">
+            <h2 class="text-4xl md:text-5xl font-black mb-4">Let's grow your brand.</h2>
+            <p class="text-slate-400 mb-8">Get a 100% Free 30-Minute Marketing Consultancy Session</p>
+            <a href="mailto:iammomin35@gmail.com" class="inline-block bg-sky-500 hover:bg-sky-600 text-white font-bold px-10 py-4 rounded-full transition">Book My Free Consultation</a>
         </div>
     </section>
-
-    <footer class="py-12 text-center text-slate-600 text-xs uppercase tracking-widest">
-        &copy; 2026 NAJMUL HOSSAIN MOMIN | DIGITAL MARKETING STRATEGIST
-    </footer>
 
     <!-- AOS Script -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init({
             duration: 1000,
-            once: false,
-            mirror: true
+            once: true,
+            offset: 100
         });
     </script>
 </body>
