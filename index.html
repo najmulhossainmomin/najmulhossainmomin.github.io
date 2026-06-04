@@ -41,6 +41,7 @@
             </div>
             <div class="hidden md:flex space-x-8 text-sm font-medium uppercase tracking-widest">
                 <a href="#services" class="hover:text-sky-400 transition">Services</a>
+                <a href="#projects" class="hover:text-sky-400 transition">Projects</a>
                 <a href="#process" class="hover:text-sky-400 transition">Process</a>
                 <a href="#tools" class="hover:text-sky-400 transition">Tools</a>
             </div>
@@ -61,7 +62,7 @@
         </p>
         <div class="flex flex-col sm:flex-row gap-4" data-aos="fade-up" data-aos-delay="600">
             <a href="#contact" class="bg-white text-black px-10 py-4 rounded-full font-bold hover:bg-sky-400 transition transform hover:scale-105">Let's Work Together</a>
-            <a href="#services" class="border border-white/20 px-10 py-4 rounded-full font-bold hover:bg-white/5 transition">My Expertise</a>
+            <a href="#projects" class="border border-white/20 px-10 py-4 rounded-full font-bold hover:bg-white/5 transition">View My Work</a>
         </div>
     </header>
 
@@ -94,6 +95,75 @@
                 <h3 class="text-2xl font-bold mb-4">Lead Gen</h3>
                 <p class="text-slate-400 text-sm mb-6">Converting traffic into qualified business leads.</p>
                 <div class="flex flex-wrap gap-2"><span class="text-[9px] border border-white/10 px-2 py-1 rounded">B2B</span><span class="text-[9px] border border-white/10 px-2 py-1 rounded">CRM Sync</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- NEW: Practice & Featured Projects Section -->
+    <section id="projects" class="max-w-7xl mx-auto px-6 py-24 border-t border-white/5">
+        <p class="text-sky-400 font-bold uppercase text-xs tracking-widest mb-2">Proof of Work</p>
+        <h2 class="text-4xl font-bold mb-16" data-aos="fade-up">Featured Practice Projects</h2>
+        
+        <!-- Enhanced Pixel Setup Project with Multi-Image Proof -->
+        <div class="border border-white/5 rounded-[2rem] bg-white/[0.02] overflow-hidden p-6 hover:border-sky-500/30 transition duration-500" data-aos="fade-up">
+            
+            <!-- Title and Badges -->
+            <div class="flex flex-col md:flex-row justify-between items-start mb-4 gap-4">
+                <div>
+                    <span class="px-3 py-1 rounded-full bg-sky-500/10 text-sky-400 text-[10px] font-bold uppercase tracking-wider">Web Analytics & Tracking</span>
+                    <h3 class="text-3xl font-bold mt-2 text-white">E-commerce Conversion Tracking Architecture</h3>
+                </div>
+                <div class="flex flex-wrap gap-2">
+                    <span class="text-[10px] bg-slate-800 border border-white/10 px-3 py-1 rounded-full text-slate-300">#GTM</span>
+                    <span class="text-[10px] bg-slate-800 border border-white/10 px-3 py-1 rounded-full text-slate-300">#MetaPixel</span>
+                    <span class="text-[10px] bg-slate-800 border border-white/10 px-3 py-1 rounded-full text-slate-300">#DataLayer</span>
+                </div>
+            </div>
+            
+            <p class="text-slate-400 text-sm leading-relaxed mb-8 max-w-4xl">
+                I deployed a robust tracking system for a multi-product e-commerce store. By writing custom DataLayer variables in Google Tag Manager, I mapped complete user journeys—from home page views to final checkout events—ensuring accurate attribution for ad spend.
+            </p>
+
+            <!-- Technical Proof of Work Layout -->
+            <p class="text-xs font-bold uppercase text-slate-500 tracking-widest mb-6"><i class="fas fa-terminal mr-2"></i> Technical Proof of Work (Step-by-Step Validation)</p>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                
+                <!-- Step 1 -->
+                <div class="group border border-white/5 rounded-xl p-3 bg-slate-900/50 hover:bg-slate-950 transition duration-300">
+                    <div class="aspect-video w-full rounded-lg bg-slate-950 overflow-hidden mb-3 border border-white/5 relative">
+                        <img src="step1.jpg" alt="Urban Jungle Homepage Connection" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                    </div>
+                    <div class="text-xs font-bold text-white mb-1">01. Live Test Store</div>
+                    <div class="text-[11px] text-slate-400 leading-tight">Configured Tag Assistant connection on the active store layout.</div>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="group border border-white/5 rounded-xl p-3 bg-slate-900/50 hover:bg-slate-950 transition duration-300">
+                    <div class="aspect-video w-full rounded-lg bg-slate-950 overflow-hidden mb-3 border border-white/5 relative">
+                        <img src="step2.jpg" alt="Order Received Funnel Test" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                    </div>
+                    <div class="text-xs font-bold text-white mb-1">02. Event Triggering</div>
+                    <div class="text-[11px] text-slate-400 leading-tight">Executed full checkout funnel to fire the core 'Purchase' action.</div>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="group border border-white/5 rounded-xl p-3 bg-slate-900/50 hover:bg-slate-950 transition duration-300">
+                    <div class="aspect-video w-full rounded-lg bg-slate-950 overflow-hidden mb-3 border border-white/5 relative">
+                        <img src="step3.png" alt="Google Tag Assistant Fired Tags" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                    </div>
+                    <div class="text-xs font-bold text-sky-400 mb-1">03. GTM Validation</div>
+                    <div class="text-[11px] text-slate-400 leading-tight">Verified target FB-Purchase tag fires exclusively on correct parameters.</div>
+                </div>
+
+                <!-- Step 4 -->
+                <div class="group border border-white/5 rounded-xl p-3 bg-slate-900/50 hover:bg-slate-950 transition duration-300">
+                    <div class="aspect-video w-full rounded-lg bg-slate-950 overflow-hidden mb-3 border border-white/5 relative">
+                        <img src="step4.jpg" alt="Meta Events Manager Datasets" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                    </div>
+                    <div class="text-xs font-bold text-emerald-400 mb-1">04. Event Manager Sync</div>
+                    <div class="text-[11px] text-slate-400 leading-tight">Confirmed successful end-to-end data processing inside Meta Datasets.</div>
+                </div>
+
             </div>
         </div>
     </section>
